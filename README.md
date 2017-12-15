@@ -5,5 +5,41 @@ Um sistema web em Flask para testes de buscas inteligentes com Elasticsearch!
 ## Ambiente de desenvolvimento
 
 - Python 3.5.2
+- Flask 0.12.2
 - Elasticsearch 6.0.0
-- `pip3 install virtualen`
+- virtualenv
+
+### Usando o virtualenv
+1. Instala o virtualenv no Python 3
+```
+pip3 install virtualenv
+```
+2. Cria os diretórios do ambiente virtual no caminho escolhido
+```
+cd /path/
+virtualenv flask
+```
+3. Ativa o ambiente virtual anteriormente criado
+```
+cd /path/flask
+source bin/activate 
+```
+4. O bash é modificado conforme o ambiente ativado
+```
+(flask)$
+```
+5. Desativa o ambiente virtual
+```
+deactivate
+```
+
+### Usando o Flask
+```
+(flask)$ pip3 install flask
+
+git clone "https://github.com/mpsacademico/fullsearch.git"
+
+cd /path/fullsearch
+FLASK_APP=main.py flask run
+```
+
