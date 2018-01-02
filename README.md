@@ -43,3 +43,6 @@ cd /path/fullsearch
 FLASK_APP=main.py flask run
 ```
 
+### Domínio para Testes
+
+- E-commerce
