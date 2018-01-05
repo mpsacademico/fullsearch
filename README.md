@@ -2,7 +2,7 @@
 
 Um sistema web em Flask para testes de buscas inteligentes com Elasticsearch!
 
-## Ambiente de desenvolvimento
+## Ambiente de desenvolvimento (Linux)
 
 - Python 3.5.2
 - Flask 0.12.2
