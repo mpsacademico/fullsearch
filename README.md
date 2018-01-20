@@ -19,6 +19,10 @@ pip3 install virtualenv
 cd /path/
 virtualenv flask
 ```
+OBS: para selecionar uma versão específica de Python
+```
+virtualenv --python=/usr/bin/pythonX.Y <path/to/new/virtualenv/>
+```
 3. Ativa o ambiente virtual anteriormente criado
 ```
 cd /path/flask
